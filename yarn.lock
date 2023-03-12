@@ -3649,6 +3649,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.54.0
     "@typescript-eslint/parser": ^5.54.0
     babel-loader: ^8.2.3
+    color2k: ^2.0.2
     eslint: ^8.35.0
     eslint-config-airbnb: ^19.0.4
     eslint-config-airbnb-typescript: ^17.0.0
@@ -3663,6 +3664,7 @@ __metadata:
     expr-eval: ^2.0.2
     framer-motion: ^9.0.7
     keen-slider: ^6.8.5
+    lodash: ^4.17.21
     ncp: ^2.0.0
     next: 13.1.6
     path: ^0.12.7
@@ -4528,7 +4530,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"color2k@npm:^2.0.0":
+"color2k@npm:^2.0.0, color2k@npm:^2.0.2":
   version: 2.0.2
   resolution: "color2k@npm:2.0.2"
   checksum: a024d05c0eb24c6cf4f50b73fc948734ebd8cd0ce1fcfd17f4a17e6965c29764fa4b528161de4e65939d6fc32b3063d496c327eb0f48c084b4d79707ddb5965f
@@ -7099,7 +7101,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.15, lodash@npm:^4.17.19":
+"lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: eb835a2e51d381e561e508ce932ea50a8e5a68f4ebdd771ea240d3048244a8d13658acbd502cd4829768c56f2e16bdd4340b9ea141297d472517b83868e677f7
