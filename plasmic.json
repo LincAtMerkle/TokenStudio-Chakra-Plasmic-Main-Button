@@ -1,0 +1,649 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "owaeaGY8AFFVSWEuNpKGHC",
+      "projectApiToken": "r6dEJs4VHfkoeX4q0P3jzrL90h6N6ATB4yNzSLKKwUapBVhWRlUmIOfzpnDLvZuowk3qnu9T3VIqsP9fYrdw",
+      "projectName": "TokenStudio-Chakra-Plasmic-Main-Button",
+      "version": "latest",
+      "cssFilePath": "plasmic/token_studio_chakra_plasmic_main_button/plasmic_token_studio_chakra_plasmic_main_button.module.css",
+      "components": [
+        {
+          "id": "NAV1kepHP8q",
+          "name": "Homepage",
+          "type": "managed",
+          "projectId": "owaeaGY8AFFVSWEuNpKGHC",
+          "renderModuleFilePath": "plasmic/token_studio_chakra_plasmic_main_button/PlasmicHomepage.tsx",
+          "importSpec": {
+            "modulePath": "../pages/index.tsx"
+          },
+          "cssFilePath": "plasmic/token_studio_chakra_plasmic_main_button/PlasmicHomepage.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "plasmic/token_studio_chakra_plasmic_main_button/PlasmicGlobalContextsProvider.tsx",
+      "codeComponents": [
+        {
+          "id": "ACkyORigKb",
+          "name": "PlasmicHead",
+          "componentImportPath": "@plasmicapp/react-web"
+        },
+        {
+          "id": "soGL2ww0ls",
+          "name": "Fetcher",
+          "componentImportPath": "@plasmicapp/react-web/lib/data-sources"
+        },
+        {
+          "id": "TolkoUb0am",
+          "name": "AccordionButton",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "sqLMgv4IFa",
+          "name": "AccordionIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "VMPRkt5ue-",
+          "name": "AccordionItem",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "iXgZWYnCfq",
+          "name": "AccordionPanel",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "6pYKXsy26vi",
+          "name": "AspectRatio",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "BP0UrWmQE13",
+          "name": "Avatar",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "rWDkBJ5QmXA",
+          "name": "AvatarBadge",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Q5AHye60x6o",
+          "name": "AvatarGroup",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "IAeRdpZDFPr",
+          "name": "Badge",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "bv6YC6xSeMh",
+          "name": "Breadcrumb",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "7cPTqKs9v97",
+          "name": "BreadcrumbItem",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "VmHkgKNGMl8",
+          "name": "BreadcrumbLink",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "tN9xmd0mFYg",
+          "name": "BreadcrumbSeparator",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "bI9YZQ6CPjr",
+          "name": "Button",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "zJPut7f_e9w",
+          "name": "ButtonGroup",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "ntSIGBVdiE3",
+          "name": "Checkbox",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "-OwtJ4TQmce",
+          "name": "CheckboxGroup",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "8AEGAaLEfAT",
+          "name": "Code",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "y-eSquHbi9x",
+          "name": "Divider",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "nL057em1ctz",
+          "name": "FormControl",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "BGReBB6k6-3",
+          "name": "FormErrorMessage",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "R0vEHWt8C9E",
+          "name": "FormHelperText",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "PPAoe658w98",
+          "name": "FormLabel",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Q44vrWY1W92",
+          "name": "Heading",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "PW33mijqRaT",
+          "name": "Highlight",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "keselIsql6p",
+          "name": "Image",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "lzC2jy2gmYx",
+          "name": "Input",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "RNhGh6xwGVZ",
+          "name": "Kbd",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "K1Eg0daFq3J",
+          "name": "Modal",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "1qzGTE5sPxH",
+          "name": "ModalOverlay",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "MwueH9AiCsx",
+          "name": "ModalContent",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "m9chbZTny0Y",
+          "name": "ModalHeader",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "dCaZ6Zia9zu",
+          "name": "ModalBody",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Uogr-eLLRNq",
+          "name": "ModalFooter",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "zee2trmNPpb",
+          "name": "ModalCloseButton",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Q3J8EjbrxcV",
+          "name": "NumberInput",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "bG1yuIR0R5Q",
+          "name": "NumberDecrementStepper",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "-M0WU7Vn_G3",
+          "name": "NumberIncrementStepper",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "YhO5h1UjRpx",
+          "name": "NumberInputField",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "cNaDSjTsV37",
+          "name": "NumberInputStepper",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "EALdaeCE_Fq",
+          "name": "Option",
+          "componentImportPath": "@plasmicpkgs/plasmic-chakra-ui"
+        },
+        {
+          "id": "Qfqicc1QKSk",
+          "name": "Select",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "8--vJ7yFvAX",
+          "name": "PinInput",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "O4fJg6do3RI",
+          "name": "PinInputField",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "o7r908PpKNL",
+          "name": "Popover",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "irj_cG5RWpg",
+          "name": "PopoverBody",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "duEUUZXxegR",
+          "name": "PopoverArrow",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "rsw6PeF1vqu",
+          "name": "PopoverCloseButton",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "kIpglgpYeme",
+          "name": "PopoverContent",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "-XEezhZsKJ-",
+          "name": "PopoverHeader",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "mn_EbrmlSLG",
+          "name": "PopoverTrigger",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "zBUnDRmYtlZ",
+          "name": "Progress",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "0ZbC_DPC1y6",
+          "name": "Radio",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "ZBsQJi_yAwE",
+          "name": "RadioGroup",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "sfYOnBEsesg",
+          "name": "Stat",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "BknXzOk9wbf",
+          "name": "StatArrow",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "gKwZtvGLoSp",
+          "name": "StatHelpText",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "0YAiWjdqQEg",
+          "name": "StatLabel",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "wlGohN58zzX",
+          "name": "StatNumber",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Lls9H5rbun6",
+          "name": "Switch",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "_0sy4I5LxZ6",
+          "name": "Table",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "vzjlreOly5R",
+          "name": "TableCaption",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "GLgmpFp0RX8",
+          "name": "Tbody",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "d4CIuyR5HY7",
+          "name": "Thead",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "KS1KnspD0Kp",
+          "name": "Tfoot",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "xhpyd4jIRg3",
+          "name": "Td",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "x2lBG9lG_b5",
+          "name": "Th",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "zd3L1-_Vkpt",
+          "name": "Tr",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "bNa83a27y8D",
+          "name": "TableContainer",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "cz0SrqcuYtf",
+          "name": "Text",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "wE2QVirTDTx",
+          "name": "Toast",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "MusIIA2ApXe",
+          "name": "Tooltip",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "gxUiELZeJJb",
+          "name": "TabList",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Y1Kwvs1_MEs",
+          "name": "Tab",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "UdpBb8mfd-B",
+          "name": "Tabs",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "pr-o4fupeZo",
+          "name": "TabPanel",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "QP07JEXBoiy",
+          "name": "TabPanels",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "DZ_QoQkqXYU",
+          "name": "ImageWithOverlay",
+          "componentImportPath": "./ImageWithOverlay"
+        },
+        {
+          "id": "Go7zqcp9PGl",
+          "name": "ButtonPreview",
+          "componentImportPath": "./components/custom/ButtonPreview"
+        },
+        {
+          "id": "I02DalNoJhH",
+          "name": "ToggleColorMode",
+          "componentImportPath": "./ToggleColorMode"
+        },
+        {
+          "id": "dc09fV4BYoF",
+          "name": "ChakraDocs",
+          "componentImportPath": "./components/custom/tokenSheets/ChakraDocs"
+        },
+        {
+          "id": "4dk9df79mlD",
+          "name": "GolfIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "KpwdHz4zBfy",
+          "name": "BowlingIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "Mw4Ggn8a5Md",
+          "name": "ArcadeIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "b99921R5swa9",
+          "name": "HijinxIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "UxfR-oxsdpaW",
+          "name": "WondervilleIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "FqBdD_8SlIxW",
+          "name": "KaraokeIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "RXdmJlO5RroD",
+          "name": "LaserIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "cLFl9dIei0jZ",
+          "name": "EscaperoomIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "O47tzVWol3Sr",
+          "name": "FunPassIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "VaL05vT8Kxe0",
+          "name": "LocationPinIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "PvbGc0JaY4jR",
+          "name": "DartsIcon",
+          "componentImportPath": "@chakra-ui/react"
+        },
+        {
+          "id": "c3KK6WjOzuz5",
+          "name": "SwatchColor",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchColor"
+        },
+        {
+          "id": "SAJA2IGexoRA",
+          "name": "SwatchSizing",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchSizing"
+        },
+        {
+          "id": "J4F7M1vRKJSQ",
+          "name": "SwatchBorderRadius",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchBorderRadius"
+        },
+        {
+          "id": "4dvkOS0bAB5b",
+          "name": "SwatchSpacing",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchSpacing"
+        },
+        {
+          "id": "z5SCEwEzOCNF",
+          "name": "SwatchFontFamily",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchFontFamily"
+        },
+        {
+          "id": "yN87Jtqit6G5",
+          "name": "SwatchFontWeights",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchFontWeights"
+        },
+        {
+          "id": "Da1v_7RacPUf",
+          "name": "SwatchFontSizes",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchFontSizes"
+        },
+        {
+          "id": "UAmEQDkecSb2",
+          "name": "SwatchBorderWidth",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchBorderWidth"
+        },
+        {
+          "id": "jo7cpxwcpkLc",
+          "name": "SwatchOpacity",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchOpacity"
+        },
+        {
+          "id": "vplThh0eVPSP",
+          "name": "SwatchLineHeights",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchLineHeights"
+        },
+        {
+          "id": "brSjtT29bIzh",
+          "name": "SwatchLetterSpacing",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchLetterSpacing"
+        },
+        {
+          "id": "7-q6eRh2Hl0d",
+          "name": "SwatchParagraphSpacing",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchParagraphSpacing"
+        },
+        {
+          "id": "-fMzsN6svRLg",
+          "name": "SwatchTextCase",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchTextCase"
+        },
+        {
+          "id": "dMYil4j45W8N",
+          "name": "SwatchTextDecoration",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchTextDecoration"
+        },
+        {
+          "id": "mRTHLI5IPJim",
+          "name": "SwatchAssets",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchAssets"
+        },
+        {
+          "id": "bDrbqKp0xqMs",
+          "name": "SwatchDimension",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchDimension"
+        },
+        {
+          "id": "xlPOArhg2o9P",
+          "name": "SwatchBorder",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchBorder"
+        },
+        {
+          "id": "VBf7fv9jdQNU",
+          "name": "SwatchBoxShadow",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchBoxShadow"
+        },
+        {
+          "id": "shEhGGqQO048",
+          "name": "SwatchTypography",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchTypography"
+        },
+        {
+          "id": "FeLXFSsBu9U7",
+          "name": "SwatchComposition",
+          "componentImportPath": "./components/custom/tokenSheets/SwatchComposition"
+        },
+        {
+          "id": "VG6TRx5NfDUU",
+          "name": "FooterWithFourColumns",
+          "componentImportPath": "./components/custom/FooterWithFourColumns"
+        },
+        {
+          "id": "hbaPsv3ckj_U",
+          "name": "ChakraProvider",
+          "componentImportPath": "@chakra-ui/react"
+        }
+      ]
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "w5KUlr42bAWn",
+        "name": "Screen",
+        "projectId": "owaeaGY8AFFVSWEuNpKGHC",
+        "contextFilePath": "plasmic/token_studio_chakra_plasmic_main_button/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.215",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.215/dist/plasmic.schema.json"
+}

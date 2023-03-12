@@ -1,0 +1,50 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.tokenName {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.textValue {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.description {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.swatchSizing:global(.__wab_instance) {
+  position: relative;
+  display: none;
+}
+.swatchSizingswatches_sizing:global(.__wab_instance) {
+  display: flex;
+}
+.swatchSpacing:global(.__wab_instance) {
+  position: relative;
+  display: none;
+}
+.swatchSpacingswatches_spacing:global(.__wab_instance) {
+  display: flex;
+}
+.swatchColor:global(.__wab_instance) {
+  object-fit: cover;
+  position: relative;
+  display: none;
+}
+.swatchColorswatches_color:global(.__wab_instance) {
+  display: flex;
+}
