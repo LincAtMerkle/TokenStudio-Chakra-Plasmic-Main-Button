@@ -37,9 +37,10 @@ const getChakraSemanticTokens = (figmaTokens: any): SemanticTokens => {
   Object.entries(figmaTokens.light).forEach(([category, tokenGroup]) => {
     if (category === "colors") {
       Object.entries(tokenGroup).forEach(([key, val]) => {
-        semanticTokens[category][key] = {
-          default: val,
-        };
+        if (!semanticTokens[category][key]) {
+          semanticTokens[category][key] = {};
+        }
+        semanticTokens[category][key].default = val;
       });
     } else {
       semanticTokens[category] = tokenGroup;
@@ -49,6 +50,9 @@ const getChakraSemanticTokens = (figmaTokens: any): SemanticTokens => {
   Object.entries(figmaTokens.dark).forEach(([category, tokenGroup]) => {
     if (category === "colors") {
       Object.entries(tokenGroup).forEach(([key, val]) => {
+        if (!semanticTokens[category][key]) {
+          semanticTokens[category][key] = {};
+        }
         semanticTokens[category][key]._dark = val;
       });
     }
