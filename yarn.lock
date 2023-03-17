@@ -2397,10 +2397,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@tokens-studio/sd-transforms@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@tokens-studio/sd-transforms/-/sd-transforms-0.5.1.tgz#862cea2df7b30ea2097b1364d0ba02d414880533"
-  integrity sha512-cjUym4cHF7wVBM2POB3HGH1PIw57ymRXNlaQX11qlSpYihINAOjQ3rAIoLKsVOK64urfbC4i/1s6EYOOPDv6aA==
+"@tokens-studio/sd-transforms@^0.5.2":
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/@tokens-studio/sd-transforms/-/sd-transforms-0.5.2.tgz#f5896a831b608fde81fc128bf9781a952c4c41a1"
+  integrity sha512-wKTCBzPlcaqUEnkDoJ6zurj1H1hVfzxIfOCUMA5ArN5p+Z7aq/prjHhZANaNeqLJFasJ/S7RmnNHPKsv6JEVHw==
   dependencies:
     color2k "^2.0.1"
     colorjs.io "^0.4.3"
