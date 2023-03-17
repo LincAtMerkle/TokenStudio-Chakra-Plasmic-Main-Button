@@ -1,7 +1,10 @@
-import getChakraSemanticTokens from './getChakraSemanticTokens'
-import tokenStudioChakraJson from './tokenStudioChakra.json'
+import getChakraSemanticTokens from "./getChakraSemanticTokens";
+import lightTokens from "../tokens-output/light.json";
+import darkTokens from "../tokens-output/dark.json";
 
-const semanticTokens = getChakraSemanticTokens(tokenStudioChakraJson)
-  
-export default semanticTokens
-  
+const semanticTokens = getChakraSemanticTokens({
+  light: lightTokens,
+  dark: darkTokens,
+});
+
+export default semanticTokens;
