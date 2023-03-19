@@ -1,6 +1,6 @@
 import { ChakraDocs } from "./ChakraDocs";
-import {registerComponent } from "@plasmicapp/host";
-import {tokenSetOrder} from "../../../theme/tokenStudioChakra/$metadata.json"
+import { registerComponent } from "@plasmicapp/host";
+import { tokenSetOrder } from "../../../theme/tokenStudioChakra/$metadata.json";
 
 export function registerChakraDocs() {
   registerComponent(ChakraDocs, {
@@ -12,14 +12,15 @@ export function registerChakraDocs() {
         // options: ["hm-light", "hm-dark"],
         options: ["light", "dark"],
         description: "Theme",
-        // defaultValue: "hm-light"  
-        defaultValue: "light"  
+        // defaultValue: "hm-light"
+        defaultValue: "light",
       },
       path: {
-        //@ts-ignore
+        // @ts-ignore
         type: "string",
         title: "Tokens path",
         description: "Tokens path",
+        // @ts-ignore
         defaultValue: "btn.primary",
       },
       set: {
